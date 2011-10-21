@@ -16,6 +16,8 @@ parts
 dist
 .installed.cfg
 .mr.developer.cfg
+.project
+.pydevproject
 var
 .hg
 .bzr

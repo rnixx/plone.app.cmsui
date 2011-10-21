@@ -172,7 +172,8 @@
   <implements interface=".interfaces.IQuickUploadCapable" />
 </class>       
 
-<class class="plone.dexterity.content.Container">
+<class class="plone.dexterity.content.Container"
+       zcml:condition="installed plone.dexterity">
   <implements interface=".interfaces.IQuickUploadCapable" />
 </class>
 <!-- Quick Upload View -->
